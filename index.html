@@ -1,0 +1,132 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lol Quiz</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header"><h1>League of Legend ultimate quiz</h1>
+    </div>
+    <main>
+      <input type="text" id="name" placeholder="enter your name">
+    <form>
+        
+        <div>
+        <p>In "League of Legends" Cassiopeia is half woman and half what creature?</p>
+        <label><input type="radio" name="question1" value="Lion">Lion</label>
+        <label><input type="radio" name="question1" value="Horse">Horse</label>
+        <label><input type="radio" name="question1" value="Snake">Snake</label>
+        </div>
+        <br>
+    
+        <div>
+            <p>TWhich "League of Legends" champion helps Caitlyn fight crime?</p>
+            <label><input type="radio" name="question2" value="Vi">Vi</label>
+            <label><input type="radio" name="question2" value="Gragas">Gragas</label>
+            <label><input type="radio" name="question2" value="Jinx">Jinx</label>
+        </div>
+        <br>
+    
+        <div>
+            <p>Who is the champion Tryndamere married to in "League of Legends?</p>
+            <label><input type="radio" name="question3" value="Ashe">Ashe</label>
+            <label><input type="radio" name="question3" value="Fiora">Fiora</label>
+            <label><input type="radio" name="question3" value="Lux">Lux</label>
+        </div>
+        <br>
+    
+        <div>
+            <p>How many champions are now in the game "League of Legends?</p>
+            <label><input type="radio" name="question4" value="119">119</label>
+            <label><input type="radio" name="question4" value="123">123</label>
+            <label><input type="radio" name="question4" value="129">129</label>
+        </div>
+        <br>
+    
+        <div>
+            <p>Which "League of Legends" character killed Lucian's wife Senna?</p>
+            <label><input type="radio" name="question5" value="Thresh">Thresh</label>
+            <label><input type="radio" name="question5" value="Hecarim">Hecarim</label>
+            <label><input type="radio" name="question5" value="Mordekaiser">Mordekaiser</label>
+        </div>
+        <br>
+        <div>
+            <p>In "League of Legends" lore, what animal was Ahri before she was transformed into a human?</p>
+            <label><input type="radio" name="question6" value="yes">cougar</label>
+            <label><input type="radio" name="question6" value="fox">fox</label>
+            <label><input type="radio" name="question6" value="bear">bear</label>
+        </div>
+        <br>
+        <div>
+            <p>Which "League of Legends" character is known as the Unforgiven?</p>
+            <label><input type="radio" name="question7" value="Yasuo">Yasuo</label>
+            <label><input type="radio" name="question7" value="Jhin">Jhin</label>
+            <label><input type="radio" name="question7" value="Udyr">Udyr</label>
+        </div>
+        <br>
+        <div>
+            <p>How many possible kinds of minions are there on Summoners Rift? (Colors do not matter)</p>
+            <label><input type="radio" name="question8" value="4">4</label>
+            <label><input type="radio" name="question8" value="3">3</label>
+            <label><input type="radio" name="question8" value="2">2</label>
+        </div>
+        <br>
+        <div>
+            <p>Does Dr. Mundo have a doctorate?</p>
+            <label><input type="radio" name="question9" value="yes">yes</label>
+            <label><input type="radio" name="question9" value="no">no</label>
+            <label><input type="radio" name="question9" value="yes, its a film degree">yes, its a film degree</label>
+        </div>
+        <br>
+        <div>
+            <p>Which champion was the soul survivor of Aatrox's massacre in the Frelijord?</p>
+            <label><input type="radio" name="question10" value="Lisandra">Lisandra</label>
+            <label><input type="radio" name="question10" value="Tryndamere">Tryndamere</label>
+            <label><input type="radio" name="question10" value="Ashe">Ashe</label>
+        </div>
+   
+    </form>
+    
+    <button id="btn-submit">Submit</button>
+    
+
+    <section class="output-message">
+    <h2 id="output"></h2>
+
+    <h3 id="rank-list"></h3>
+    </section>
+
+    <section class="top-scorer-list">
+    <h2 id="top_scorer"></h2>
+    <ul class="list-non-bullet">
+        <li id="list"></li>
+        <li id="list"></li>
+        <li id="list"></li>
+    </ul>
+</section>
+    
+
+    </main>
+
+    <footer class="footer">
+       
+        <p>© | 2022 | deepanshisharma</p>
+        <ul class="list-non-bullet social-links">
+            <li class="list-item-inline"><a class="link" href="https://deepanshi-sharma.netlify.app/">Portfolio</a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/deepanshimarsha">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/deepanshi-sharma-8502a71b8/">Linkedin</a></li>
+        </ul>
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+</body>
+
+</html>

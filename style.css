@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+:root {
+    --primary-color: #fdba74;
+    --black: #0891b2;
+    --width-break: 600px;
+    --primary-font: 'Kalam', cursive;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+
+
+
+.header {
+
+    padding: 1rem;
+    background-color: #f97316;
+    border-color: var(--primary-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    color: white;
+    font-size: large;
+
+    
+
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 750px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+
+
+
+
+div {
+    border: 1px solid rgb(209, 213, 219);
+    padding: 0.5rem 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    max-width: 7500px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #f97316;
+    color: #ea580c;
+
+}
+
+button {
+    background: #f97316;
+    border: none;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    outline: black;
+    margin: auto;
+    display: block;
+    font-family: var(--primary-font);
+    margin-top: 2rem;
+    text-align: center;
+    width: 717px;
+    font-family: var(--primary-font);
+}
+
+#output {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+#name {
+    padding: 0.6rem 0.5rem;
+    width: 717px;
+    border-radius: 0.5rem;
+    border: 2px solid #f97316;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    outline: #fff;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    color: #f97316;
+
+}
+
+
+li {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+ 
+}
+
+#output {
+    color: white;
+    margin-bottom: 0px;
+  
+    font-size: 2.5rem;
+}
+
+#rank-list {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+#top_scorer {
+    color: white;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+/* footer */
+.footer{
+    padding: 1rem;
+    background-color: #f97316;
+    border-color: var(--primary-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    color: white;
+    font-size: large;
+}
+
+
+.footer-header  {
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.footer .link{
+    font-family: var(--primary-font);
+    color:white;
+    font-style: italic;
+}
+
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.3rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0rem 0rem;
+}
