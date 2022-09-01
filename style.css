@@ -177,3 +177,17 @@ li {
     text-decoration: none;
     padding: 0rem 0rem;
 }
+
+.social-link{
+    padding: 0.4rem;
+}
+
+#social-icons{
+    max-width: 2.5%;  
+    height: auto;
+
+}
+
+#discord{
+    object-fit: cover;  
+}
